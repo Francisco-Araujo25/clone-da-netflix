@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/main.css" />
+  <link rel="stylesheet" href="./style/responsive.css">
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+  <link rel="stylesheet" href="style/owl/owl.theme.default.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <title>NETFLIX CLONE</title>
+</head>
+<body class="container">
+  <header class="navbar">
+    <h1 class="netflix-logo">NETFLIX</h1>
+    <button class="menu-toggle" aria-label="Abrir menu">
+       <span class="hamburger"></span>
+  <span class="hamburger"></span>
+  <span class="hamburger"></span>
+    </button>
+    <nav class="menu">
+      <a href="#" class="menu-item">Início</a>
+      <a href="#" class="menu-item">Séries</a>
+      <a href="#" class="menu-item">Filmes</a>
+      <a href="#" class="menu-item">Jogos</a>
+      <a href="#" class="menu-item">Bombando</a>
+      <a href="#" class="menu-item">Minha lista</a>
+      <a href="#" class="menu-item">Idiomas</a>
+    </nav>
+    <div class="icons">
+      <button class="icon-btn" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <a href="#" class="menu-item">Infantil</a>
+      <button class="icon-btn" id="notif-btn"><i class="fa-solid fa-bell"></i></button>
+      <div class="profile-dropdown">
+        <div id="profile-btn" class="profile-icon">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="7" r="5" />
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+          </svg>
+        </div>
+        <ul id="dropdown-menu" class="hidden">
+          <li><a href="#">Conta</a></li>
+          <li><a href="#">Sair</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <img class="imagem" src="https://images7.alphacoders.com/111/thumb-1920-1111278.jpg" alt="Breaking Bad Banner" />
+      <div class="banner-content">
+        <h1 class="breaking-logo">
+          <span class="element">Br</span>eaking <span class="element">Ba</span>d
+        </h1>
+        <p>Um professor de química se transforma em um dos maiores criminosos do país.</p>
+        <div class="banner-buttons">
+          <button class="btn btn-white" data-trailer="https://youtu.be/HhesaQXLuRY?si=FaaIPWRc08wlznYm"><i class="fas fa-play"></i> Assistir</button>
+          <button class="btn btn-gray"><i class="fas fa-info-circle"></i> Mais informações</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="carrosel-filmes">
+      <h2 class="categoria-titulo">Mais assistidos</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="./img/mini-1.webp" alt="Filme 1" />
+          <div class="info-filme">
+            <h3>Os Simpsons</h3>
+            <p class="mini-resenha">Uma família disfuncional que se tornou um ícone da cultura pop.</p>
+            <span class="nota">⭐ 8.9</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/XPG0MqIcby8?si=ieZyH8Fsp4mblG6I">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-2.webp" alt="Filme 2" />
+          <div class="info-filme">
+            <h3>NE ZHA 2</h3>
+            <p class="mini-resenha">A continuação da épica batalha entre deuses e demônios.</p>
+            <span class="nota">⭐ 6.9</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/ETlOSBR92Fs?si=KaxQtnWk8qs7Ri7W">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-3.webp" alt="Filme 3" />
+          <div class="info-filme">
+            <h3>Dexter</h3>
+            <p class="mini-resenha">Um serial killer que só mata outros assassinos.</p>
+            <span class="nota">⭐ 9.8</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/YQeUmSD1c3g?si=b9cEk8D1OgFnECRJ">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-4.webp" alt="Filme 4" />
+          <div class="info-filme">
+            <h3>Olhos de Wakanda</h3>
+            <p class="mini-resenha">A luta pela justiça e liberdade em Wakanda.</p>
+            <span class="nota">⭐ 9.2</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/0jyD_MdoOs4?si=MFaCHGIrLUidEOB6">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-5.webp" alt="Filme 5" />
+          <div class="info-filme">
+            <h3>Karate Kid</h3>
+            <p class="mini-resenha">A jornada de um jovem em busca de autoconhecimento e disciplina.</p>
+            <span class="nota">⭐ 9.5</span>
+            <button class="btn-assistir" data-trailer="https://https://youtu.be/XY8amUImEu0?si=Wak_M2Ab2jJ250I0">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-6.webp" alt="Filme 6" />
+          <div class="info-filme">
+            <h3>Chespirito</h3>
+            <p class="mini-resenha">As aventuras hilárias de um dos maiores comediantes da TV.</p>
+            <span class="nota">⭐ 9.7</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/9J7AHlipJE4?si=whOyrNJUogUMNrl-">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-7.webp" alt="Filme 7" />
+          <div class="info-filme">
+            <h3>Wandinha</h3>
+            <p class="mini-resenha">A vida sombria e intrigante da filha de Gomez e Morticia Addams.</p>
+            <span class="nota">⭐ 9.4</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/855QySYhW1s?si=wpyG2sJegEiwC_JB">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-8.webp" alt="Filme 8" />
+          <div class="info-filme">
+            <h3>Os Bad Boas</h3>
+            <p class="mini-resenha">Uma comédia de ação que traz os vilões mais carismáticos da TV.</p>
+            <span class="nota">⭐ 9.6</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/5o7qLfdCst0?si=4S74vkXUZjnikh6R">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-9.webp" alt="Filme 9" />
+          <div class="info-filme">
+            <h3>Superman - Olhe para cima</h3>
+            <p class="mini-resenha">A luta do Superman contra uma ameaça cósmica iminente.</p>
+            <span class="nota">⭐ 9.3</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/6HsfXtgcAE4?si=WMLmO0u9IWkI7vtc">Assistir</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="box-filme" src="./img/mini-10.webp" alt="Filme 10" />
+          <div class="info-filme">
+            <h3>Como treinar o seu dragão</h3>
+            <p class="mini-resenha">A amizade entre um jovem viking e um dragão rebelde.</p>
+            <span class="nota">⭐ 9.1</span>
+            <button class="btn-assistir" data-trailer="https://youtu.be/CWTy1ukPoYY?si=M0TlE8AZ8kx9JMSj">Assistir</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carrosel-filmes">
+      <h2 class="categoria-titulo">Avaliados pelo público</h2>
+      <div class="owl-carousel owl-theme">
+
+        <div class="item card-filme">
+          <img src="./img/Inception.webp" alt="Poster de Inception" class="box-cult">
+          <h2 class="titulo-filme">Inception</h2>
+          <p class="mini-resenha">Sonhos dentro de sonhos. Um espetáculo de Nolan.</p>
+          <button class="btn-assistir" data-trailer="https://www.youtube.com/watch?v=YoHD9XEInc0">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/inception/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/parasite.webp" alt="Poster de Parasite" class="box-cult">
+          <h2 class="titulo-filme">Parasita</h2>
+          <p class="mini-resenha">Uma crítica social brilhante com suspense e ironia. Vencedor do Oscar.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/5xH0HfJHsaY?si=GA_Zyw9G2WZnlnvY">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/parasite-2019/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/opdc.jpg" alt="Poster O Poderoso Chefão" class="box-cult">
+          <h2 class="titulo-filme">O poderoso Chefão</h2>
+          <p class="mini-resenha">Uma saga épica sobre poder, família e traição. Um clássico atemporal.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/SaHZHU-44XA?si=wcUdIiLqknFqQgQg">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/the-godfather/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/Interstellar.webp" alt="Poster de Interstellar" class="box-cult">
+          <h2 class="titulo-filme">Interstellar</h2>
+          <p class="mini-resenha">Uma jornada épica pelo espaço e pelo amor. Uma obra-prima de Christopher Nolan.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/zSWdZVtXT7E?si=_t4oEAZdAFfDSbrG">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/interstellar/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/ForrestGump.webp" alt="Poster de Forrest Gump" class="box-cult">
+          <h2 class="titulo-filme">Forrest Gump</h2>
+          <p class="mini-resenha">A vida é como uma caixa de chocolates. Uma história tocante e inspiradora.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/vDY_uZAaU7g?si=YnLo55cVAPahBBxs">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/forrest-gump/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/Matrix.webp" alt="Poster de Matrix" class="box-cult">
+          <h2 class="titulo-filme">Matrix</h2>
+          <p class="mini-resenha">Uma revolução no cinema de ficção científica. Desperte para a realidade.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/m8e-FF8MsqU?si=98JVQr2BQchK6Ph3">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/the-matrix/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+        <div class="item card-filme">
+          <img src="./img/Gladiador.webp" alt="Poster de Gladiador" class="box-cult">
+          <h2 class="titulo-filme">Gladiador</h2> 
+          <p class="mini-resenha">Uma história de vingança e redenção no Império Romano. Um épico inesquecível.</p>
+          <button class="btn-assistir" data-trailer="https://youtu.be/P5ieIbInFpg?si=eKnmyqMJuJtsGwQT">Assistir</button>
+
+          <a class="letterboxd-link" href="https://letterboxd.com/film/gladiator/" target="_blank">Ver no Letterboxd</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="https://kit.fontawesome.com/cf297c136d.js" crossorigin="anonymous"></script>
+  <script src="./js/owl/jquery.min.js"></script>
+  <script src="./js/owl/owl.carousel.min.js"></script>
+  <script src="./js/owl/Script.js"></script>
+  <script src="./js/owl/header.js"></script>
+</body>
+</html>
